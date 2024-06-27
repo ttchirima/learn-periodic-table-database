@@ -50,3 +50,6 @@ git commit -m "chore: update README with project title"
 __vsc_prompt_cmd_original
 git add README.md
 git commit -m "chore: add instructions to execute the element.sh script in the terminal"
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+exit
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
